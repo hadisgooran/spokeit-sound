@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		660A7B4B23C12558003F18DB /* MainGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660A7B4A23C12558003F18DB /* MainGameViewController.swift */; };
+		6667319F23C723E50077DDAD /* SavedAnAnimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6667319E23C723E50077DDAD /* SavedAnAnimalViewController.swift */; };
+		666731A123C724910077DDAD /* SavedAllAnimalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666731A023C724910077DDAD /* SavedAllAnimalsViewController.swift */; };
+		66B97DA723A3A9DF0088A9F0 /* SpeechRecognitionHeader.h in Resources */ = {isa = PBXBuildFile; fileRef = CE2AC2E22354FCD10022B952 /* SpeechRecognitionHeader.h */; };
+		CE1F2A812335F50F0081EF02 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE1F2A7E2335F50F0081EF02 /* Actions.sks */; };
+		CE1F2A822335F50F0081EF02 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE1F2A7F2335F50F0081EF02 /* GameScene.sks */; };
+		CE1F2A832335F50F0081EF02 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F2A802335F50F0081EF02 /* GameScene.swift */; };
+		CE2AC2DA2354FBA30022B952 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2AC2D72354FBA30022B952 /* Slt.framework */; };
+		CE2AC2DB2354FBA30022B952 /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2AC2D82354FBA30022B952 /* OpenEars.framework */; };
+		CE2AC2DC2354FBA30022B952 /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE2AC2D92354FBA30022B952 /* AcousticModelEnglish.bundle */; };
+		CE2AC2DF2354FC8E0022B952 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2AC2DE2354FC8E0022B952 /* AudioToolbox.framework */; };
+		CE2AC2E12354FC980022B952 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2AC2E02354FC980022B952 /* AVFoundation.framework */; };
+		CE46B2DD238F097200CDF518 /* SharkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46B2DC238F097200CDF518 /* SharkController.swift */; };
+		CE46B2DF238F0B1100CDF518 /* PandaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46B2DE238F0B1100CDF518 /* PandaController.swift */; };
+		CE46B2E1238F0BA800CDF518 /* ChimpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46B2E0238F0BA800CDF518 /* ChimpController.swift */; };
+		CE46B2E5238F156200CDF518 /* AcceptSharkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46B2E4238F156200CDF518 /* AcceptSharkController.swift */; };
+		CE46B2E7238F15A800CDF518 /* AcceptPandaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46B2E6238F15A800CDF518 /* AcceptPandaController.swift */; };
+		CE46B2E9238F162D00CDF518 /* AcceptChimpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46B2E8238F162D00CDF518 /* AcceptChimpController.swift */; };
+		CED6491523565905002220B9 /* sh.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CED64914235658FE002220B9 /* sh.mp4 */; };
+		CEE49FB52333FDD00054F491 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE49FB42333FDD00054F491 /* AppDelegate.swift */; };
+		CEE49FB72333FDD00054F491 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE49FB62333FDD00054F491 /* GameViewController.swift */; };
+		CEE49FBA2333FDD00054F491 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE49FB82333FDD00054F491 /* Main.storyboard */; };
+		CEE49FBC2333FDD10054F491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE49FBB2333FDD10054F491 /* Assets.xcassets */; };
+		CEE49FBF2333FDD10054F491 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE49FBD2333FDD10054F491 /* LaunchScreen.storyboard */; };
+		CEE49FC82334AB8E0054F491 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE49FC72334AB8E0054F491 /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		660A7B4A23C12558003F18DB /* MainGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGameViewController.swift; sourceTree = "<group>"; };
+		6667319E23C723E50077DDAD /* SavedAnAnimalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedAnAnimalViewController.swift; sourceTree = "<group>"; };
+		666731A023C724910077DDAD /* SavedAllAnimalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedAllAnimalsViewController.swift; sourceTree = "<group>"; };
+		CE1F2A7E2335F50F0081EF02 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		CE1F2A7F2335F50F0081EF02 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		CE1F2A802335F50F0081EF02 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		CE2AC2D72354FBA30022B952 /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
+		CE2AC2D82354FBA30022B952 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
+		CE2AC2D92354FBA30022B952 /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
+		CE2AC2DE2354FC8E0022B952 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CE2AC2E02354FC980022B952 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CE2AC2E22354FCD10022B952 /* SpeechRecognitionHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeechRecognitionHeader.h; sourceTree = "<group>"; };
+		CE46B2DC238F097200CDF518 /* SharkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharkController.swift; sourceTree = "<group>"; };
+		CE46B2DE238F0B1100CDF518 /* PandaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandaController.swift; sourceTree = "<group>"; };
+		CE46B2E0238F0BA800CDF518 /* ChimpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChimpController.swift; sourceTree = "<group>"; };
+		CE46B2E4238F156200CDF518 /* AcceptSharkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptSharkController.swift; sourceTree = "<group>"; };
+		CE46B2E6238F15A800CDF518 /* AcceptPandaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptPandaController.swift; sourceTree = "<group>"; };
+		CE46B2E8238F162D00CDF518 /* AcceptChimpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptChimpController.swift; sourceTree = "<group>"; };
+		CED64914235658FE002220B9 /* sh.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sh.mp4; sourceTree = "<group>"; };
+		CEE49FB12333FDD00054F491 /* SpeechRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE49FB42333FDD00054F491 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEE49FB62333FDD00054F491 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CEE49FB92333FDD00054F491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEE49FBB2333FDD10054F491 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEE49FBE2333FDD10054F491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEE49FC02333FDD10054F491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE49FC72334AB8E0054F491 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE49FAE2333FDD00054F491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2AC2E12354FC980022B952 /* AVFoundation.framework in Frameworks */,
+				CE2AC2DF2354FC8E0022B952 /* AudioToolbox.framework in Frameworks */,
+				CE2AC2DA2354FBA30022B952 /* Slt.framework in Frameworks */,
+				CE2AC2DB2354FBA30022B952 /* OpenEars.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE2AC2D62354FBA30022B952 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				CE2AC2D72354FBA30022B952 /* Slt.framework */,
+				CE2AC2D82354FBA30022B952 /* OpenEars.framework */,
+				CE2AC2D92354FBA30022B952 /* AcousticModelEnglish.bundle */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		CE2AC2DD2354FC8E0022B952 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE2AC2E02354FC980022B952 /* AVFoundation.framework */,
+				CE2AC2DE2354FC8E0022B952 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEE49FA82333FDD00054F491 = {
+			isa = PBXGroup;
+			children = (
+				CEE49FB32333FDD00054F491 /* SpeechRecognition */,
+				CEE49FB22333FDD00054F491 /* Products */,
+				CE2AC2DD2354FC8E0022B952 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE49FB22333FDD00054F491 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE49FB12333FDD00054F491 /* SpeechRecognition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE49FB32333FDD00054F491 /* SpeechRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				CE2AC2D62354FBA30022B952 /* Framework */,
+				CED64914235658FE002220B9 /* sh.mp4 */,
+				CEE49FB42333FDD00054F491 /* AppDelegate.swift */,
+				CE1F2A7E2335F50F0081EF02 /* Actions.sks */,
+				CE1F2A7F2335F50F0081EF02 /* GameScene.sks */,
+				CE1F2A802335F50F0081EF02 /* GameScene.swift */,
+				CEE49FB62333FDD00054F491 /* GameViewController.swift */,
+				CE46B2DC238F097200CDF518 /* SharkController.swift */,
+				CE46B2DE238F0B1100CDF518 /* PandaController.swift */,
+				CE46B2E0238F0BA800CDF518 /* ChimpController.swift */,
+				CEE49FB82333FDD00054F491 /* Main.storyboard */,
+				CEE49FBB2333FDD10054F491 /* Assets.xcassets */,
+				CEE49FBD2333FDD10054F491 /* LaunchScreen.storyboard */,
+				CEE49FC02333FDD10054F491 /* Info.plist */,
+				CEE49FC72334AB8E0054F491 /* Extensions.swift */,
+				CE2AC2E22354FCD10022B952 /* SpeechRecognitionHeader.h */,
+				CE46B2E4238F156200CDF518 /* AcceptSharkController.swift */,
+				CE46B2E6238F15A800CDF518 /* AcceptPandaController.swift */,
+				CE46B2E8238F162D00CDF518 /* AcceptChimpController.swift */,
+				660A7B4A23C12558003F18DB /* MainGameViewController.swift */,
+				6667319E23C723E50077DDAD /* SavedAnAnimalViewController.swift */,
+				666731A023C724910077DDAD /* SavedAllAnimalsViewController.swift */,
+			);
+			path = SpeechRecognition;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE49FB02333FDD00054F491 /* SpeechRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE49FC32333FDD10054F491 /* Build configuration list for PBXNativeTarget "SpeechRecognition" */;
+			buildPhases = (
+				CEE49FAD2333FDD00054F491 /* Sources */,
+				CEE49FAE2333FDD00054F491 /* Frameworks */,
+				CEE49FAF2333FDD00054F491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeechRecognition;
+			productName = SpeechRecognition;
+			productReference = CEE49FB12333FDD00054F491 /* SpeechRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE49FA92333FDD00054F491 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Shafiee;
+				TargetAttributes = {
+					CEE49FB02333FDD00054F491 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CEE49FAC2333FDD00054F491 /* Build configuration list for PBXProject "SpeechRecognition" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEE49FA82333FDD00054F491;
+			productRefGroup = CEE49FB22333FDD00054F491 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE49FB02333FDD00054F491 /* SpeechRecognition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE49FAF2333FDD00054F491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B97DA723A3A9DF0088A9F0 /* SpeechRecognitionHeader.h in Resources */,
+				CED6491523565905002220B9 /* sh.mp4 in Resources */,
+				CEE49FBF2333FDD10054F491 /* LaunchScreen.storyboard in Resources */,
+				CE1F2A822335F50F0081EF02 /* GameScene.sks in Resources */,
+				CEE49FBC2333FDD10054F491 /* Assets.xcassets in Resources */,
+				CE2AC2DC2354FBA30022B952 /* AcousticModelEnglish.bundle in Resources */,
+				CEE49FBA2333FDD00054F491 /* Main.storyboard in Resources */,
+				CE1F2A812335F50F0081EF02 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE49FAD2333FDD00054F491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE49FB72333FDD00054F491 /* GameViewController.swift in Sources */,
+				CE46B2DD238F097200CDF518 /* SharkController.swift in Sources */,
+				CEE49FC82334AB8E0054F491 /* Extensions.swift in Sources */,
+				CE46B2E9238F162D00CDF518 /* AcceptChimpController.swift in Sources */,
+				CE46B2E5238F156200CDF518 /* AcceptSharkController.swift in Sources */,
+				CE1F2A832335F50F0081EF02 /* GameScene.swift in Sources */,
+				CE46B2E7238F15A800CDF518 /* AcceptPandaController.swift in Sources */,
+				CE46B2E1238F0BA800CDF518 /* ChimpController.swift in Sources */,
+				CE46B2DF238F0B1100CDF518 /* PandaController.swift in Sources */,
+				666731A123C724910077DDAD /* SavedAllAnimalsViewController.swift in Sources */,
+				6667319F23C723E50077DDAD /* SavedAnAnimalViewController.swift in Sources */,
+				660A7B4B23C12558003F18DB /* MainGameViewController.swift in Sources */,
+				CEE49FB52333FDD00054F491 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEE49FB82333FDD00054F491 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE49FB92333FDD00054F491 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEE49FBD2333FDD10054F491 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE49FBE2333FDD10054F491 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEE49FC12333FDD10054F491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/SpeechRecognition/Framework";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/amirhosseinpy/Downloads/SpeechRecognition/SpeechRecognition/SpeechRecognitionHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEE49FC22333FDD10054F491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/SpeechRecognition/Framework";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/amirhosseinpy/Downloads/SpeechRecognition/SpeechRecognition/SpeechRecognitionHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEE49FC42333FDD10054F491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UGM9RU5T36;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SpeechRecognition/Framework",
+				);
+				INFOPLIST_FILE = SpeechRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shafiee1.SpeechRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/hadisehgooran/Desktop/SpeechRecognition_new/SpeechRecognition/SpeechRecognitionHeader.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEE49FC52333FDD10054F491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UGM9RU5T36;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SpeechRecognition/Framework",
+				);
+				INFOPLIST_FILE = SpeechRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shafiee1.SpeechRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/hadisehgooran/Desktop/SpeechRecognition_new/SpeechRecognition/SpeechRecognitionHeader.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE49FAC2333FDD00054F491 /* Build configuration list for PBXProject "SpeechRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE49FC12333FDD10054F491 /* Debug */,
+				CEE49FC22333FDD10054F491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE49FC32333FDD10054F491 /* Build configuration list for PBXNativeTarget "SpeechRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE49FC42333FDD10054F491 /* Debug */,
+				CEE49FC52333FDD10054F491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE49FA92333FDD00054F491 /* Project object */;
+}
